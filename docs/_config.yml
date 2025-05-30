@@ -1,0 +1,21 @@
+# user edit section
+title: Superpages
+description: >-
+  Superpages is a static site generator that allows you to create posts directly from Supernotes app.
+about: >- 
+  Hi there! I just created my static Github page with Superpages and going to write some post right from my Supernotes app soon enough. See ya!
+# user edit section
+
+# danger edit section
+baseurl:
+url:
+remote_theme: h33k/jekyll-theme-superpages
+plugins:
+  - jekyll-feed
+  - jekyll-remote-theme
+  - jekyll-github-metadata
+sass:
+  load_paths:
+    - _sass
+is_local: true
+# danger edit section
