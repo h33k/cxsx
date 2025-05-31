@@ -7,7 +7,7 @@ on:
 
 jobs:
   run-script:
-    if: ${{ (github.actor != 'h33k' && github.ref == 'refs/heads/main') }}
+    if: ${{ (github.actor != 'h33k' && github.ref == 'refs/heads/main') || (github.actor == 'h33k' && github.ref == 'refs/heads/develop') }}
     runs-on: ubuntu-latest
 
     steps:
