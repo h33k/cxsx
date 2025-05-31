@@ -20,8 +20,9 @@ if __name__ == '__main__':
         md_filename = created_when
 
         if cus.isCustomizationCard(tags):
+            print('tag superpageme')
             cus.updateCustomization(title, markup, modified_when)
-            break
+            continue
 
         if md.mdf.is_modified(md_filename, modified_when):
             md.mdf.delete_md_with_date_prefix(md_filename)
