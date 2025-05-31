@@ -1,9 +1,10 @@
-about: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa 2
+about: 'Hi there! I just created my static Github page with Superpages and going to
+  write some post right from my Supernotes app soon enough. See ya! '
 baseurl: null
 description: Superpages is a static site generator that allows you to create posts
   directly from Supernotes app.
 is_local: false
-modified_when: '2025-05-31T15:18:12.124419'
+modified_when: '2025-05-31T18:44:20.936825'
 plugins:
 - jekyll-feed
 - jekyll-remote-theme
@@ -12,5 +13,5 @@ remote_theme: h33k/jekyll-theme-superpages
 sass:
   load_paths:
   - _sass
-title: aaaaaaaaaaaaaaaa2
+title: Superpages
 url: null
