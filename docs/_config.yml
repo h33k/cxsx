@@ -1,17 +1,16 @@
-title: Superpages
-description: >-
-  Superpages is a static site generator that allows you to create posts directly from Supernotes app.
-about: >- 
-  Hi there! I just created my static Github page with Superpages and going to write some post right from my Supernotes app soon enough. See ya!
-baseurl:
-url:
-remote_theme: h33k/jekyll-theme-superpages
+about: 'gefewfwds '
+baseurl: null
+description: Superpages is a static site generator that allows you to create posts
+  directly from Supernotes app.
+is_local: false
+modified_when: '2025-05-31T15:24:46.458921'
 plugins:
-  - jekyll-feed
-  - jekyll-remote-theme
-  - jekyll-github-metadata
+- jekyll-feed
+- jekyll-remote-theme
+- jekyll-github-metadata
+remote_theme: h33k/jekyll-theme-superpages
 sass:
   load_paths:
-    - _sass
-is_local: false
-modified_when: 0
+  - _sass
+title: stege
+url: null
