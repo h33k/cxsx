@@ -14,5 +14,5 @@ def updateCustomization(title, markup, modified_when):
     config['title'] = title
     config['about'] = markup
 
-    with open('../docs/_config.yml', 'w') as f:
+    with open('docs/_config.yml', 'w') as f:
         yaml.safe_dump(config, f)
