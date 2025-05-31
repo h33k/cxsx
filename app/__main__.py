@@ -21,6 +21,7 @@ if __name__ == '__main__':
 
         if cus.isCustomizationCard(tags):
             cus.updateCustomization(title, markup, modified_when)
+            break
 
         if md.mdf.is_modified(md_filename, modified_when):
             md.mdf.delete_md_with_date_prefix(md_filename)
