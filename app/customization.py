@@ -7,7 +7,7 @@ def isCustomizationCard(tags):
     return False
 
 def updateCustomization(title, markup, modified_when):
-    with open('../docs/_config.yml', 'r') as f:
+    with open('docs/_config.yml', 'r') as f:
         config = yaml.safe_load(f)
 
     config['modified_when'] = modified_when
