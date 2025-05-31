@@ -1,9 +1,9 @@
-about: 'gefewfwds '
+about: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa 2
 baseurl: null
 description: Superpages is a static site generator that allows you to create posts
   directly from Supernotes app.
 is_local: false
-modified_when: '2025-05-31T15:24:46.458921'
+modified_when: '2025-05-31T15:18:12.124419'
 plugins:
 - jekyll-feed
 - jekyll-remote-theme
@@ -12,5 +12,5 @@ remote_theme: h33k/jekyll-theme-superpages
 sass:
   load_paths:
   - _sass
-title: stege
+title: aaaaaaaaaaaaaaaa2
 url: null
