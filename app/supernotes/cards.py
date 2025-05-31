@@ -1,18 +1,23 @@
 import requests
 
-def getCards(key, tag='superpage'):
 
+def getCards(key):
     url = "https://api.supernotes.app/v1/cards/get/select"
 
     payload = {
         "filter_group": {
             "type": "group",
-            "op": "and",
+            "op": "or",
             "filters": [
                 {
                     "type": "tag",
                     "op": "contains",
-                    "arg": f"{tag}"
+                    "arg": "superpage"
+                },
+                {
+                    "type": "tag",
+                    "op": "contains",
+                    "arg": "superpageme"
                 }
             ]
         },
