@@ -17,5 +17,5 @@ plugins:
 sass:
   load_paths:
     - _sass
-is_local: true
+is_local: false
 # danger edit section
